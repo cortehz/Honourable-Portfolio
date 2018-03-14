@@ -9,7 +9,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
   <link rel="icon" href=" ">
-  <title>Hassan Saleh || About Me</title>
+  <title>Hassan Saleh || Other Activities</title>
 
   <!-- Bootstrap core CSS -->
   <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -25,44 +25,46 @@
   <!-- Font Awesome Style -->
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
     crossorigin="anonymous">
-
+  <link href="https://use.fontawesome.com/releases/v5.0.2/css/all.css" rel="stylesheet">
 
 </head>
 
 <body>
-  <div class="loader loader-bg">
-    <div class="loader-inner ball-clip-rotate-pulse">
-      <div></div>
-      <div></div>
-    </div>
-  </div>
 
   <!-- Top Navigation -->
   <nav class="navbar navbar-toggleable-md mb-4 top-bar navbar-static-top sps sps--abv">
 
     <div class="container">
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarCollapse1" aria-controls="navbarCollapse"
-        aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <img class="img-responsive" src="img/logo1.png" height="120" width="120">
-      <a class="navbar-brand" href="#">
+      <div class="button-bars">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarCollapse1" aria-controls="navbarCollapse"
+          aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-ico">
+            <i class="fas fa-bars"></i>
+          </span>
+        </button>
+      </div>
+
+      <img class="img-responsive logo-img" src="http://res.cloudinary.com/cortehz/image/upload/v1520987257/honourable/logo1.png"
+        height="120" width="120">
+      <a class="navbar-brand" href="index">
         <span>Hon. </span>Hassan
         <span>Saleh</span>
       </a>
 
+
+
       <div class="collapse navbar-collapse" id="navbarCollapse1">
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="index.html">HOME
+          <li class="nav-item">
+            <a class="nav-link" href="index">HOME
               <span class="sr-only">(current)</span>
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#about">ABOUT ME</a>
+            <a class="nav-link" href="about-me">ABOUT ME</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="projects.html">PROJECTS</a>
+            <a class="nav-link" href="constituency-projects">PROJECTS</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
@@ -70,11 +72,11 @@
               ACTIVITIES
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="plenary.html">LEGISLATIVE ACTIVITIES</a>
-              <a class="dropdown-item" href="other.html">OTHER ACTIVITIES</a>
+              <a class="dropdown-item" href="plenary-activities">LEGISLATIVE ACTIVITIES</a>
+              <a class="dropdown-item" href="my-other-activities">OTHER ACTIVITIES</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#contact">CONTACT</a>
+            <a class="nav-link" href="contact">CONTACT</a>
           </li>
 
         </ul>
@@ -83,29 +85,17 @@
 
       </div>
 
-      <div>
-        <ul class="social">
-          <li>
-            <a target="_blank" href="https://www.webenlance.com/">
-              <i class="fa fa-facebook-square" aria-hidden="true"></i>
-            </a>
-          </li>
-          <li>
-            <a target="_blank" href="https://webenlance.com">
-              <i class="fa fa-twitter-square" aria-hidden="true"></i>
-            </a>
-          </li>
-        </ul>
-      </div>
   </nav>
 
+  </nav>
 
   <!-- Swiper Silder
     ================================================== -->
   <!-- Slider main container -->
   <div class="swiper-container1 main-slider1" id="myCarousel1" style="z-index: 0;">
     <div class="swiper-wrapper1">
-      <div class="swiper-slide1 slider-bg-position1" style="background:url('img/hos.jpg')" data-hash="slide1">
+      <div class="swiper-slide1 slider-bg-position1" style="background:url('http://res.cloudinary.com/cortehz/image/upload/v1520984102/honourable/hos.jpg')"
+        data-hash="slide1">
       </div>
       <!-- <div class="swiper-slide slider-bg-position" style="background:url('img/downloadfile.jpg')" data-hash="slide2">
       <h2>Happiness is nothing more than good health and a bad memory</h2>
@@ -118,43 +108,90 @@
   <div class="swiper-button-next"><i class="fa fa-chevron-right"></i></div> -->
   </div>
 
-  <div class="project center-block">
-    <h1 class="text-center">GET IN TOUCH</h1>
+  <div class="project center-block" id="other">
+    <h1 class="text-center">MY ACTIVITIES</h1>
   </div>
 
-  <section class="contact-sec" id="contact">
-    <div class="container">
-      <h2>Send Me a quick message</h2>
-      <div class="row">
-        <div class="col-md-4">
-          <div class="form-group">
-            <label for="exampleName">Name</label>
-            <input type="text" class="form-control" id="exampleName" aria-describedby="emailHelp">
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="form-group">
-            <label for="examplePhone">Phone Number</label>
-            <input type="text" class="form-control" id="examplePhone" aria-describedby="emailHelp">
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="form-group">
-            <label for="exampleInputEmail1">Email address</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
 
-          </div>
-          <div class="col-md-12">
-            <label for="exampleTextarea">Enter your Message</label>
-            <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
-          </div>
-          <div class="col-md-12 text-xs-center action-block">
-            <a href="#" class="btn btn-capsul btn-aqua">Submit</a>
-          </div>
-        </div>
+  <section class="other-activity">
+    <!-- <div class="container">
+<div class="card-deck">
+    <div class="card">
+      <img class="card-img-top img-fluid" src="./img/8.png" alt="Card image cap">
+      <div class="card-body">
+
+        <p class="card-text">Being welcomed into the All Progressive Congress by the National Chairman of the Party.</p>
+
       </div>
-  </section>
+    </div>
+    <div class="card">
+      <img class="card-img-top img-fluid" src="./img/hassan.jpg" alt="Card image cap">
+      <div class="card-body">
 
+        <p class="card-text">First ever All Progressives Congress meeting. Received a warm welcome from party Members</p>
+
+      </div>
+    </div>
+    <div class="card">
+      <img class="card-img-top img-fluid" src="./img/football2.jpg" alt="Card image cap">
+      <div class="card-body">
+        <p class="card-text">Kicking off a football tournament organized in my Constituency. Its always good to be involved in activities in the constituency.</p>
+
+      </div>
+    </div>
+  </div>
+</div> -->
+
+    <div class="activity-group first">
+      <div class="activity-group__overlay">
+        <p class="activity-group__title">Football tournament organised for the youths. Sports has always finds a way to bring about unity.</p>
+
+      </div>
+
+    </div>
+    <div class="activity-group second">
+      <div class="activity-group__overlay">
+        <p class="activity-group__title">L-R: Myself, Hon Babangida Ibrahim and NTA’s Cyril Stober in Port Harcourt</p>
+
+      </div>
+
+    </div>
+    <div class="activity-group third">
+      <div class="activity-group__overlay">
+        <p class="activity-group__title">In a photo with the deputy governor of Rivers state H.E Mrs Palebo Banigo as well as House committee Chairman on
+          Finance Hon Babangida Ibrahim at the financial management retreat organized by the office of the Accountant general
+          of the federation</p>
+
+      </div>
+
+    </div>
+    <div class="activity-group fourth">
+      <div class="activity-group__overlay">
+        <p class="activity-group__title">Being welcomed to my first ever meeting as a member of the All Progressives Congress.</p>
+
+      </div>
+
+    </div>
+    <div class="activity-group fifth">
+      <div class="activity-group__overlay">
+        <p class="activity-group__title">We the house committee on Local content met with Aliko Dangote in his office to discuss issues concerning the growth
+          in Nigeria</p>
+
+      </div>
+
+    </div>
+
+    <div class="activity-group sixth">
+      <div class="activity-group__overlay">
+        <p class="activity-group__title">Cherished moments with the Esama of Benin, Chief Gabriel Igbinedion.</p>
+
+      </div>
+
+    </div>
+    <!-- images placed inside block elements to deal with a Firefox rendering bug affecting  scaled flexbox images -->
+
+
+  </section>
 
   <footer>
     <div class="container ">
@@ -163,7 +200,7 @@
         <div class="col-md-4 col-sm-6 col-xs-12 ">
           <span class="logo ">
             <img class="img-responsive " src="http://res.cloudinary.com/cortehz/image/upload/v1520981293/mace_jqvqs9.png
-        " width="70px " height="200px ">
+          " width="70px " height="200px ">
           </span>
         </div>
 
@@ -188,7 +225,7 @@
 
             <li>
               <a href="constituency-projects ">Projects</a>
-            </li>‭
+            </li>
           </ul>
         </div>
 
